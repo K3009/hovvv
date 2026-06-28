@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hovv Patio and Farms – A cozy modern cafe in the heart of the city. Good Coffee. Good Food. Good Moments." />
+  <meta name="keywords" content="cafe, coffee, cozy cafe, restaurant, food, desserts, hovv Patio, farms cafe" />
+  <meta property="og:title" content="Hovv Patio and Farms" />
+  <meta property="og:description" content="Good Coffee. Good Food. Good Moments." />
+  <title>Hovv Patio and Farms | Cozy Cafe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <span class="logo-leaf">🌿</span>
+        <span>Hovv Patio</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#moments">Moments</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Reserve a Table</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1800&q=80" alt="Cozy cafe interior" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content reveal">
+      <p class="hero-eyebrow">Est. 2024 · Delhi</p>
+      <h1 class="hero-title">Hovv Patio<br /><em>&amp; Farms</em></h1>
+      <p class="hero-tagline">Good Coffee. Good Food. Good Moments.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-primary">Reserve a Table</a>
+        <a href="#menu" class="btn btn-ghost">View Menu</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container about-grid">
+      <div class="about-images reveal">
+        <div class="about-img-main">
+          <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=700&q=80" alt="Warm cafe corner with plants" />
+        </div>
+        <div class="about-img-side">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80" alt="Coffee being poured" />
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <p class="section-eyebrow">Our Story</p>
+        <h2 class="section-title">Your little escape<br />from the rush</h2>
+        <p class="about-body">Hovv Patio and Farms was born from a simple idea — that everyone deserves a place to slow down. Tucked away from the chaos of the city, we built a space where wooden tables, warm lights, and the smell of freshly brewed coffee greet you at the door.</p>
+        <p class="about-body">We source fresh ingredients, brew with care, and plate with love. Whether you're catching up with an old friend, on a quiet first date, pulling an all-nighter, or just treating yourself — this is your place.</p>
+        <div class="about-stats">
+          <div class="stat"><span class="stat-num">40+</span><span class="stat-label">Menu Items</span></div>
+          <div class="stat"><span class="stat-num">5★</span><span class="stat-label">Rated on Google</span></div>
+          <div class="stat"><span class="stat-num">Daily</span><span class="stat-label">Fresh Bakes</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE CARDS -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <p class="section-eyebrow center reveal">Why People Love It</p>
+      <h2 class="section-title center reveal">The Hovv Experience</h2>
+      <div class="exp-grid">
+        <div class="exp-card reveal">
+          <div class="exp-icon">☕</div>
+          <h3>Fresh Coffee</h3>
+          <p>Every cup is freshly brewed — from smooth espressos to creamy cold coffees crafted to perfection.</p>
+        </div>
+        <div class="exp-card reveal">
+          <div class="exp-icon">🍰</div>
+          <h3>Homemade Desserts</h3>
+          <p>Baked fresh daily. Our brownies, waffles, and cakes are made in-house with real butter and real love.</p>
+        </div>
+        <div class="exp-card reveal">
+          <div class="exp-icon">🌿</div>
+          <h3>Cozy Ambience</h3>
+          <p>Warm lighting, wooden textures, trailing plants — designed to make you stay longer than planned.</p>
+        </div>
+        <div class="exp-card reveal">
+          <div class="exp-icon">📚</div>
+          <h3>Perfect Hangout Spot</h3>
+          <p>Fast Wi-Fi, quiet corners, and ample charging points. Study, work, or just exist here.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <p class="section-eyebrow center reveal">Our Space</p>
+      <h2 class="section-title center reveal">A Peek Inside</h2>
+      <p class="gallery-sub center reveal">Tag us <strong>@hovvPatio</strong> and we'll feature you on our wall 🤍</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="g-item g-tall reveal">
+        <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=600&q=80" alt="Cafe interior seating" />
+        <div class="g-overlay"><span>Cozy Corners</span></div>
+      </div>
+      <div class="g-item reveal">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80" alt="Coffee latte art" />
+        <div class="g-overlay"><span>Latte Art ☕</span></div>
+      </div>
+      <div class="g-item reveal">
+        <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600&q=80" alt="Dessert plate" />
+        <div class="g-overlay"><span>House Desserts</span></div>
+      </div>
+      <div class="g-item g-wide reveal">
+        <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=900&q=80" alt="Cafe bar and barista" />
+        <div class="g-overlay"><span>Our Brew Bar</span></div>
+      </div>
+      <div class="g-item reveal">
+        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="Food plate" />
+        <div class="g-overlay"><span>Fresh Plates</span></div>
+      </div>
+      <div class="g-item reveal">
+        <img src="https://images.unsplash.com/photo-1416339134316-0e91dc9ded92?w=600&q=80" alt="Plants in cafe" />
+        <div class="g-overlay"><span>Green Vibes 🌿</span></div>
+      </div>
+      <div class="g-item g-tall reveal">
+        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&q=80" alt="Cafe window seat" />
+        <div class="g-overlay"><span>Window Seat Goals</span></div>
+      </div>
+      <div class="g-item reveal">
+        <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=600&q=80" alt="Waffle dessert" />
+        <div class="g-overlay"><span>Our Waffles 🧇</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu section" id="menu">
+    <div class="container">
+      <p class="section-eyebrow center reveal">What We Serve</p>
+      <h2 class="section-title center reveal">Our Menu</h2>
+      <div class="menu-tabs reveal">
+        <button class="tab-btn active" data-tab="coffee">Coffee</button>
+        <button class="tab-btn" data-tab="food">Food</button>
+        <button class="tab-btn" data-tab="desserts">Desserts</button>
+      </div>
+
+      <div class="menu-panel active" id="tab-coffee">
+        <div class="menu-grid">
+          <div class="menu-item reveal">
+            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&q=80" alt="Cappuccino" />
+            <div class="menu-info">
+              <div class="menu-name-row">
+                <h4>Cappuccino</h4>
+                <span class="price">₹199</span>
+              </div>
+              <p>Classic Italian espresso with velvety steamed milk and a rich foam crown.</p>
+            </div>
+          </div>
+          <div class="menu-item reveal">
+            <img src="https://images.unsplash.com/photo-1561882468-9110e03e0f78?w=400&q=80" alt="Latte" />
+            <div class="menu-info">
+              <div class="menu-name-row">
+                <h4>Signature Latte</h4>
+                <span class="price">₹229</span>
+              </div>
+              <p>Smooth espresso shots with micro-foam milk. Ask for our seasonal flavour.</p>
+            </div>
+          </div>
+          <div class="menu-item reveal">
+            <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=400&q=80" alt="Cold Coffee" />
+            <div class="menu-info">
+              <div class="menu-name-row">
+                <h4>Cold Coffee</h4>
+                <span class="price">₹249</span>
+              </div>
+              <p>Chilled espresso blended with milk and ice. Rich, creamy, and deeply satisfying.</p>
+            </div>
+          </div>
+          <div class="menu-item reveal">
+            <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=400&q=80" alt="Espresso" />
+            <div class="menu-info">
+              <div class="menu-name-row">
+                <h4>Espresso</h4>
+                <span class="price">₹149</span>
+              </div>
+              <p>Single or double shot of pure, concentrated espresso for the coffee purist in you.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-panel" id="tab-food">
+        <div class="menu-grid">
+          <div class="menu-item reveal">
+            <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&q=80" alt="Pasta" />
+            <div class="menu-info">
+              <div class="menu-name-row">
+                <h4>Creamy Penne Pasta</h4>
+                <span class="price">₹329</span>
+              </div>
+              <p>Al dente penne in a rich white sauce with herbs, mushrooms, and garlic.</p>
+            </div>
+          </div>
+          <div class="menu-item reveal">
+            <img src="https://images.unsplash.com/photo-1553909489-cd47e0907980?w=400&q=80" alt="Sandwich" />
+            <div class="menu-info">
+              <div class="menu-name-row">
+                <h4>Club Sandwich</h4>
+                <span class="price">₹259</span>
+              </div>
+              <p>Triple-decker with fresh veggies, cheese, and a house chipotle spread.</p>
+            </div>
+          </div>
+          <div class="menu-item reveal">
+            <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=400&q=80" alt="Pizza" />
+            <div class="menu-info">
+              <div class="menu-name-row">
+                <h4>Margherita Pizza</h4>
+                <span class="price">₹379</span>
+              </div>
+              <p>Hand-stretched base with house tomato sauce, mozzarella, and fresh basil.</p>
+            </div>
+          </div>
+          <div class="menu-item reveal">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&q=80" alt="Burger" />
+            <div class="menu-info">
+              <div class="menu-name-row">
+                <h4>Hovv Smash Burger</h4>
+                <span class="price">₹349</span>
+              </div>
+              <p>Smashed patty, caramelised onions, pickles, and our secret sauce in a brioche bun.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-panel" id="tab-desserts">
+        <div class="menu-grid">
+          <div class="menu-item reveal">
+            <img src="https://images.unsplash.com/photo-1607920591413-4ec007e70023?w=400&q=80" alt="Brownie" />
+            <div class="menu-info">
+              <div class="menu-name-row">
+                <h4>Fudge Brownie</h4>
+                <span class="price">₹179</span>
+              </div>
+              <p>Dense, gooey, chocolatey — our most re-ordered dessert. Served warm with vanilla ice cream.</p>
+            </div>
+          </div>
+          <div class="menu-item reveal">
+            <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&q=80" alt="Cake" />
+            <div class="menu-info">
+              <div class="menu-name-row">
+                <h4>Cafe Cake Slice</h4>
+                <span class="price">₹219</span>
+              </div>
+              <p>Rotating seasonal flavour. Ask your server what's baked today — it's always worth it.</p>
+            </div>
+          </div>
+          <div class="menu-item reveal">
+            <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=400&q=80" alt="Waffles" />
+            <div class="menu-info">
+              <div class="menu-name-row">
+                <h4>Belgian Waffles</h4>
+                <span class="price">₹269</span>
+              </div>
+              <p>Crispy golden waffles with whipped cream, fresh fruit, and a drizzle of maple syrup.</p>
+            </div>
+          </div>
+          <div class="menu-item reveal">
+            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400&q=80" alt="Cookie" />
+            <div class="menu-info">
+              <div class="menu-name-row">
+                <h4>Choco Chip Cookies</h4>
+                <span class="price">₹129</span>
+              </div>
+              <p>Warm, gooey cookies straight from the oven. Best paired with a cold coffee.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECIAL MOMENTS -->
+  <section class="moments section" id="moments">
+    <div class="container">
+      <p class="section-eyebrow center reveal">More Than a Cafe</p>
+      <h2 class="section-title center reveal">Every Moment,<br />A Memory</h2>
+    </div>
+    <div class="moments-grid">
+      <div class="moment-card reveal" style="--img:url('https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=700&q=80')">
+        <div class="moment-overlay"></div>
+        <div class="moment-content">
+          <span class="moment-icon">👯</span>
+          <h3>Friends Meetup</h3>
+          <p>Big tables, good food, endless laughs.</p>
+        </div>
+      </div>
+      <div class="moment-card reveal" style="--img:url('https://images.unsplash.com/photo-1522057306606-5d02f6a33f65?w=700&q=80')">
+        <div class="moment-overlay"></div>
+        <div class="moment-content">
+          <span class="moment-icon">🌹</span>
+          <h3>Date Spot</h3>
+          <p>Soft lighting, quiet corners, great conversation starters.</p>
+        </div>
+      </div>
+      <div class="moment-card reveal" style="--img:url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=700&q=80')">
+        <div class="moment-overlay"></div>
+        <div class="moment-content">
+          <span class="moment-icon">💻</span>
+          <h3>Study / Work Cafe</h3>
+          <p>Wi-Fi, power points, and coffee that keeps you going.</p>
+        </div>
+      </div>
+      <div class="moment-card reveal" style="--img:url('https://images.unsplash.com/photo-1464349153735-7db50ed83c84?w=700&q=80')">
+        <div class="moment-overlay"></div>
+        <div class="moment-content">
+          <span class="moment-icon">🎂</span>
+          <h3>Small Celebrations</h3>
+          <p>Birthdays, milestones, or just-because moments.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews section" id="reviews">
+    <div class="container">
+      <p class="section-eyebrow center reveal">What People Say</p>
+      <h2 class="section-title center reveal">Real Reviews,<br />Real Love</h2>
+      <div class="reviews-grid">
+        <div class="review-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Honestly one of the best cafes in Delhi. The latte art was so pretty I almost didn't want to drink it — almost. The ambience is perfect for a Sunday afternoon."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">P</div>
+            <div>
+              <strong>Priya Sharma</strong>
+              <span>Google Review</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Came here for a work session and stayed four hours. The Wi-Fi is fast, the cold coffee is addictive, and the staff is genuinely sweet. Will be a regular."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">A</div>
+            <div>
+              <strong>Arjun Mehta</strong>
+              <span>Google Review</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"The fudge brownie with vanilla ice cream is something else. Warm, gooey, absolutely divine. Brought my girlfriend here for our anniversary — she loved it!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">R</div>
+            <div>
+              <strong>Rohan Gupta</strong>
+              <span>Instagram</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Finally a cafe that doesn't feel like a hotel lobby. Hovv Patio is warm, casual, and the food is genuinely good. The pasta and the cold coffee combo is 10/10."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">N</div>
+            <div>
+              <strong>Nandini Verma</strong>
+              <span>Zomato</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Came with my study group and we ended up spending the whole evening here. The vibe, the food, the music — everything was just right. 100% recommend."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">K</div>
+            <div>
+              <strong>Kabir Singh</strong>
+              <span>Google Review</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"The Belgian waffles are a must-try. Crispy, sweet, and absolutely Instagram-worthy. The place looks even better in person than in photos."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">S</div>
+            <div>
+              <strong>Sanya Kapoor</strong>
+              <span>Instagram</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info reveal">
+        <p class="section-eyebrow">Find Us</p>
+        <h2 class="section-title">Come Say Hello</h2>
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="c-icon">📍</span>
+            <div>
+              <strong>Address</strong>
+              <p>Hovv Patio and Farm, Plot no 833, opposite VVIP STYLE, Noor Nagar, Sehani Khurd, Ghukna, Ghaziabad, Uttar Pradesh 201001</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="c-icon">📞</span>
+            <div>
+              <strong>Call Us</strong>
+              <p>09821115811</p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="contact-social">
+          <a href="https://www.instagram.com/hovvpatioandfarm/?hl=en" class="social-btn insta">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            Follow on Instagram
+          </a>
+          <a href="https://wa.me/919876543210?text=Hi%20Hovv%20Patio!%20I%20would%20like%20to%20reserve%20a%20table." class="social-btn whatsapp" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Book via WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="map-container reveal">
+        <div class="map-placeholder">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2773.2602597044292!2d77.42647569675043!3d28.69537753648514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf16f382899f5%3A0x3246495cc2cd1ece!2sHOVV%20PATIO%20%26%20FARM!5e1!3m2!1sen!2sin!4v1782636206981!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Hovv Patio and Farms Location">
+          </iframe>
+        </div>
+        <div class="reservation-form">
+          <h3>Reserve a Table</h3>
+          <div class="form-row">
+            <input type="text" placeholder="Your Name" class="form-input" />
+            <input type="tel" placeholder="Phone Number" class="form-input" />
+          </div>
+          <div class="form-row">
+            <input type="date" class="form-input" />
+            <select class="form-input">
+              <option value="">Number of Guests</option>
+              <option>1 Person</option>
+              <option>2 People</option>
+              <option>3–4 People</option>
+              <option>5+ People</option>
+            </select>
+          </div>
+          <textarea placeholder="Any special requests? (Birthday, anniversary, dietary needs…)" class="form-input form-textarea"></textarea>
+          <button class="btn btn-primary full-width" onclick="handleReservation()">Confirm Reservation</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-leaf">🌿</span>
+        <span class="footer-name">Hovv Patio &amp; Farms</span>
+        <p>Good Coffee. Good Food. Good Moments.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Hovv Patio and Farms. Made with ☕ in Delhi.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast">✅ Reservation sent! We'll call you shortly.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
